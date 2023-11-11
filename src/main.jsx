@@ -7,21 +7,19 @@ import { ChakraProvider, extendTheme } from '@chakra-ui/react'
 //extend the theme
 
 const colors = {
-  brand: {
-    100: "#0000FF",
-    200: "#0000AA",
-    300: "#000088",
-    400: "#000077",
-    500: "#000066",
-  }
+  bgPage: "#24262F",
+  bgCard: "#383A47",
+  bgUse: "#24262F",
+  button: "#E87D01",
+  float1: "#008000",
+  float2: "#48C774",
+  float3: "#FFDD57",
+  float4: "#F14668",
+  float5: "#B11736"
 }
 
-const fonts = {
-  body:"Tahoma",
-  heading:"Courier New"
-}
 
-const theme = extendTheme({colors,fonts});
+const theme = extendTheme({ colors });
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
